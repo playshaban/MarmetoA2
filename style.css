@@ -146,12 +146,13 @@
   box-sizing: border-box;
   justify-content: space-between;
   box-sizing: border-box;
+  gap:20px;
 }
 
 .product_title_box .title {
   font-size: 22px;
   color: black;
-  width: 30%;
+  width: 50%;
   line-break: anywhere;
   font-weight: bold;
   overflow: hidden;
@@ -160,7 +161,7 @@
   box-sizing: border-box;
 }
 .product_rating_select {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
