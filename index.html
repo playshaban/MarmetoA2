@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fresh From The Source</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
+    <link href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    " rel="stylesheet" />
+</head>
+
+<body>
+    <div class="fresh_from_source">
+        <div class="head_container">
+            <p>Fresh From The Source</p>
+            <div class="radio_field">
+                <input type="radio" id="syrups" name="catagory" value="syrups" onchange="handleRadioChange(this)" />
+                <label for="syrups">SYRUPS</label>
+
+                <input type="radio" id="jams-spreads" name="catagory" value="jams-spreads"
+                    onchange="handleRadioChange(this)" />
+                <label for="jams-spreads">JAMS & SPREADS</label>
+
+                <input type="radio" name="catagory" id="fruits" value="fruits" onchange="handleRadioChange(this)" />
+                <label for="fruits">FRUITS CHEWS</label>
+
+                <input type="radio" name="catagory" id="snaks" value="snaks" onchange="handleRadioChange(this)" />
+                <label for="snaks">SNAKS</label>
+
+                <input type="radio" name="catagory" id="chocolates" value="chocolates"
+                    onchange="handleRadioChange(this)" />
+                <label for="chocolates">CHOCOLATES</label>
+            </div>
+        </div>
+        <div class="slider_container_box">
+            <section class="splide" aria-label="Splide Basic HTML Example">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide" onmouseover="showAddToCartBtn(this)"
+                            onmouseout="hideAddToCartBtn(this)">
+                            <img src="images/Whole_Strawberry.jpeg" alt="" />
+
+                            <div class="product_infobox">
+                                <div class="full_info">
+                                    <div class="product_catagory">Mapro · Crush</div>
+                                    <div class="product_price">
+                                        <span>$360</span>
+                                    </div>
+                                </div>
+                                <div class="product_title_box">
+                                    <span class="title"> Whole Strawberry </span>
+                                    <div class="product_rating_select">
+                                        <div class="product_rating_box">
+                                            <div class="Stars" style="--rating: 3.5"
+                                                aria-label="Rating of this product is 3.5 out of 5."></div>
+                                            <span class="product_rating"> 3.5 </span>
+                                        </div>
+                                        <select name="quantity" id="">
+                                            <option value="100">100ml</option>
+                                            <option value="300">300ml</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="add_to_cart_btn">
+                                    <span>Add To Cart</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="splide__slide" onmouseover="showAddToCartBtn(this)"
+                            onmouseout="hideAddToCartBtn(this)">
+                            <img src="images/jam.jpeg" alt="" />
+
+                            <div class="product_infobox">
+                                <div class="full_info">
+                                    <div class="product_catagory">Mapro · Jam</div>
+                                    <div class="product_price">
+                                        <span>$234</span>
+                                    </div>
+                                </div>
+                                <div class="product_title_box">
+                                    <span class="title"> Whole Strawberry Jam </span>
+                                    <div class="product_rating_select">
+                                        <div class="product_rating_box">
+                                            <div class="Stars" style="--rating: 4.8"
+                                                aria-label="Rating of this product is 4.8 out of 5."></div>
+                                            <span class="product_rating"> 4.8 </span>
+                                        </div>
+                                        <select name="quantity" id="">
+                                            <option value="1000">1kg</option>
+                                            <option value="500">500gm</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="add_to_cart_btn">
+                                    <span>Add To Cart</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="splide__slide" onmouseover="showAddToCartBtn(this)"
+                            onmouseout="hideAddToCartBtn(this)">
+                            <img src="images/fruit.jpeg" alt="" />
+
+                            <div class="product_infobox">
+                                <div class="full_info">
+                                    <div class="product_catagory">Mapro · Fruit Chews</div>
+                                    <div class="product_price">
+                                        <span>$117</span>
+                                    </div>
+                                </div>
+                                <div class="product_title_box">
+                                    <span class="title"> Strawberry </span>
+                                    <div class="product_rating_select">
+                                        <div class="product_rating_box">
+                                            <div class="Stars" style="--rating: 5"
+                                                aria-label="Rating of this product is 5 out of 5."></div>
+                                            <span class="product_rating"> 5 </span>
+                                        </div>
+                                        <select name="quantity" id="">
+                                            <option value="175">175g</option>
+                                            <option value="500">500g</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="add_to_cart_btn">
+                                    <span>Add To Cart</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="splide__slide" onmouseover="showAddToCartBtn(this)"
+                            onmouseout="hideAddToCartBtn(this)">
+                            <img src="images/Whole_Strawberry.jpeg" alt="" />
+
+                            <div class="product_infobox">
+                                <div class="full_info">
+                                    <div class="product_catagory">Mapro · Crush</div>
+                                    <div class="product_price">
+                                        <span>$360</span>
+                                    </div>
+                                </div>
+                                <div class="product_title_box">
+                                    <span class="title"> Whole Strawberry </span>
+                                    <div class="product_rating_select">
+                                        <div class="product_rating_box">
+                                            <div class="Stars" style="--rating: 3.5"
+                                                aria-label="Rating of this product is 3.5 out of 5."></div>
+                                            <span class="product_rating"> 3.5 </span>
+                                        </div>
+                                        <select name="quantity" id="">
+                                            <option value="100">100ml</option>
+                                            <option value="300">300ml</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="add_to_cart_btn">
+                                    <span>Add To Cart</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="splide__slide" onmouseover="showAddToCartBtn(this)"
+                            onmouseout="hideAddToCartBtn(this)">
+                            <img src="images/Whole_Strawberry.jpeg" alt="" />
+
+                            <div class="product_infobox">
+                                <div class="full_info">
+                                    <div class="product_catagory">Mapro · Crush</div>
+                                    <div class="product_price">
+                                        <span>$360</span>
+                                    </div>
+                                </div>
+                                <div class="product_title_box">
+                                    <span class="title"> Whole Strawberry </span>
+                                    <div class="product_rating_select">
+                                        <div class="product_rating_box">
+                                            <div class="Stars" style="--rating: 3.5"
+                                                aria-label="Rating of this product is 3.5 out of 5."></div>
+                                            <span class="product_rating"> 3.5 </span>
+                                        </div>
+                                        <select name="quantity" id="">
+                                            <option value="100">100ml</option>
+                                            <option value="300">300ml</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="add_to_cart_btn">
+                                    <span>Add To Cart</span>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="splide__slide" onmouseover="showAddToCartBtn(this)"
+                            onmouseout="hideAddToCartBtn(this)">
+                            <img src="images/Whole_Strawberry.jpeg" alt="" />
+
+                            <div class="product_infobox">
+                                <div class="full_info">
+                                    <div class="product_catagory">Mapro · Crush</div>
+                                    <div class="product_price">
+                                        <span>$360</span>
+                                    </div>
+                                </div>
+                                <div class="product_title_box">
+                                    <span class="title"> Whole Strawberry </span>
+                                    <div class="product_rating_select">
+                                        <div class="product_rating_box">
+                                            <div class="Stars" style="--rating: 3.5"
+                                                aria-label="Rating of this product is 3.5 out of 5."></div>
+                                            <span class="product_rating"> 3.5 </span>
+                                        </div>
+                                        <select name="quantity" id="">
+                                            <option value="100">100ml</option>
+                                            <option value="300">300ml</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="add_to_cart_btn">
+                                    <span>Add To Cart</span>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- <li class="splide__slide view_more_btn">
+                            <a href=""> View More </a>
+                        </li> -->
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var splide = new Splide(".splide", {
+                type: "slide",
+                perPage: 3,
+                start: 1,
+                perMove: 1,
+                gap: "2rem",
+                drag: "free",
+                pagination: false,
+                breakpoints: {
+                    768: {
+                        perPage: 1,
+                    },
+                },
+            });
+            splide.mount();
+        });
+    </script>
+    <script>
+        function showAddToCartBtn(element) {
+            var addToCartBtn = element.querySelector(".add_to_cart_btn");
+            addToCartBtn.style.display = "block";
+        }
+
+        function hideAddToCartBtn(element) {
+            var addToCartBtn = element.querySelector(".add_to_cart_btn");
+            addToCartBtn.style.display = "none";
+        }
+    </script>
+
+    <script>
+        function handleRadioChange(radio) {
+            // Display an alert when a radio field is changed
+            // alert("Hello, World! You selected: " + radio.value);
+        }
+    </script>
+
+</body>
+
+</html>
+
+<!--  -->
