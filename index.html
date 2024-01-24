@@ -19,7 +19,8 @@
         <div class="head_container">
             <p>Fresh From The Source</p>
             <div class="radio_field">
-                <input type="radio" id="syrups" name="catagory" value="syrups" onchange="handleRadioChange(this)" ture/>
+                <input type="radio" id="syrups" name="catagory" value="syrups" onchange="handleRadioChange(this)"
+                    checked />
                 <label for="syrups">SYRUPS</label>
 
                 <input type="radio" id="jams-spreads" name="catagory" value="jams-spreads"
@@ -35,197 +36,16 @@
                 <input type="radio" name="catagory" id="chocolates" value="chocolates"
                     onchange="handleRadioChange(this)" />
                 <label for="chocolates">CHOCOLATES</label>
+                <script>
+                    document.getElementsByTagName("catagory").value = "syrups";
+                </script>
             </div>
         </div>
         <div class="slider_container_box">
             <section class="splide" aria-label="Splide Basic HTML Example">
                 <div class="splide__track">
                     <ul class="splide__list">
-                        <li class="splide__slide" onmouseover="showAddToCartBtn(this)"
-                            onmouseout="hideAddToCartBtn(this)">
-                            <img src="images/Whole_Strawberry.jpeg" alt="" />
 
-                            <div class="product_infobox">
-                                <div class="full_info">
-                                    <div class="product_catagory">Mapro · Crush</div>
-                                    <div class="product_price">
-                                        <span>$360</span>
-                                    </div>
-                                </div>
-                                <div class="product_title_box">
-                                    <span class="title"> Whole Strawberry </span>
-                                    <div class="product_rating_select">
-                                        <div class="product_rating_box">
-                                            <div class="Stars" style="--rating: 3.5"
-                                                aria-label="Rating of this product is 3.5 out of 5."></div>
-                                            <span class="product_rating"> 3.5 </span>
-                                        </div>
-                                        <select name="quantity" id="">
-                                            <option value="100">100ml</option>
-                                            <option value="300">300ml</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="add_to_cart_btn">
-                                    <span>Add To Cart</span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="splide__slide" onmouseover="showAddToCartBtn(this)"
-                            onmouseout="hideAddToCartBtn(this)">
-                            <img src="images/jam.jpeg" alt="" />
-
-                            <div class="product_infobox">
-                                <div class="full_info">
-                                    <div class="product_catagory">Mapro · Jam</div>
-                                    <div class="product_price">
-                                        <span>$234</span>
-                                    </div>
-                                </div>
-                                <div class="product_title_box">
-                                    <span class="title"> Whole Strawberry Jam </span>
-                                    <div class="product_rating_select">
-                                        <div class="product_rating_box">
-                                            <div class="Stars" style="--rating: 4.8"
-                                                aria-label="Rating of this product is 4.8 out of 5."></div>
-                                            <span class="product_rating"> 4.8 </span>
-                                        </div>
-                                        <select name="quantity" id="">
-                                            <option value="1000">1kg</option>
-                                            <option value="500">500gm</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="add_to_cart_btn">
-                                    <span>Add To Cart</span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="splide__slide" onmouseover="showAddToCartBtn(this)"
-                            onmouseout="hideAddToCartBtn(this)">
-                            <img src="images/fruit.jpeg" alt="" />
-
-                            <div class="product_infobox">
-                                <div class="full_info">
-                                    <div class="product_catagory">Mapro · Fruit Chews</div>
-                                    <div class="product_price">
-                                        <span>$117</span>
-                                    </div>
-                                </div>
-                                <div class="product_title_box">
-                                    <span class="title"> Strawberry </span>
-                                    <div class="product_rating_select">
-                                        <div class="product_rating_box">
-                                            <div class="Stars" style="--rating: 5"
-                                                aria-label="Rating of this product is 5 out of 5."></div>
-                                            <span class="product_rating"> 5 </span>
-                                        </div>
-                                        <select name="quantity" id="">
-                                            <option value="175">175g</option>
-                                            <option value="500">500g</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="add_to_cart_btn">
-                                    <span>Add To Cart</span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="splide__slide" onmouseover="showAddToCartBtn(this)"
-                            onmouseout="hideAddToCartBtn(this)">
-                            <img src="images/Whole_Strawberry.jpeg" alt="" />
-
-                            <div class="product_infobox">
-                                <div class="full_info">
-                                    <div class="product_catagory">Mapro · Crush</div>
-                                    <div class="product_price">
-                                        <span>$360</span>
-                                    </div>
-                                </div>
-                                <div class="product_title_box">
-                                    <span class="title"> Whole Strawberry </span>
-                                    <div class="product_rating_select">
-                                        <div class="product_rating_box">
-                                            <div class="Stars" style="--rating: 3.5"
-                                                aria-label="Rating of this product is 3.5 out of 5."></div>
-                                            <span class="product_rating"> 3.5 </span>
-                                        </div>
-                                        <select name="quantity" id="">
-                                            <option value="100">100ml</option>
-                                            <option value="300">300ml</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="add_to_cart_btn">
-                                    <span>Add To Cart</span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="splide__slide" onmouseover="showAddToCartBtn(this)"
-                            onmouseout="hideAddToCartBtn(this)">
-                            <img src="images/Whole_Strawberry.jpeg" alt="" />
-
-                            <div class="product_infobox">
-                                <div class="full_info">
-                                    <div class="product_catagory">Mapro · Crush</div>
-                                    <div class="product_price">
-                                        <span>$360</span>
-                                    </div>
-                                </div>
-                                <div class="product_title_box">
-                                    <span class="title"> Whole Strawberry </span>
-                                    <div class="product_rating_select">
-                                        <div class="product_rating_box">
-                                            <div class="Stars" style="--rating: 3.5"
-                                                aria-label="Rating of this product is 3.5 out of 5."></div>
-                                            <span class="product_rating"> 3.5 </span>
-                                        </div>
-                                        <select name="quantity" id="">
-                                            <option value="100">100ml</option>
-                                            <option value="300">300ml</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="add_to_cart_btn">
-                                    <span>Add To Cart</span>
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="splide__slide" onmouseover="showAddToCartBtn(this)"
-                            onmouseout="hideAddToCartBtn(this)">
-                            <img src="images/Whole_Strawberry.jpeg" alt="" />
-
-                            <div class="product_infobox">
-                                <div class="full_info">
-                                    <div class="product_catagory">Mapro · Crush</div>
-                                    <div class="product_price">
-                                        <span>$360</span>
-                                    </div>
-                                </div>
-                                <div class="product_title_box">
-                                    <span class="title"> Whole Strawberry </span>
-                                    <div class="product_rating_select">
-                                        <div class="product_rating_box">
-                                            <div class="Stars" style="--rating: 3.5"
-                                                aria-label="Rating of this product is 3.5 out of 5."></div>
-                                            <span class="product_rating"> 3.5 </span>
-                                        </div>
-                                        <select name="quantity" id="">
-                                            <option value="100">100ml</option>
-                                            <option value="300">300ml</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="add_to_cart_btn">
-                                    <span>Add To Cart</span>
-                                </div>
-                            </div>
-                        </li>
                         <!-- <li class="splide__slide view_more_btn">
                             <a href=""> View More </a>
                         </li> -->
@@ -236,10 +56,317 @@
     </div>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
+
+            handleRadioChange();
+        });
+
+        const fruits = [{
+            "title": "Strawberry",
+            "catagory": "Fruit Chews",
+            "vendor": "Falero",
+            "image": "https://www.mapro.com/cdn/shop/products/1_a98bd683-a1e8-4a6c-9b91-677429c057aa_720x.jpg?v=1667734071",
+            "price": 117,
+            "rating": "4.3",
+            "variant": ["350gm", "500gm"]
+        },
+        {
+            "title": "Fruba Guava",
+            "catagory": "Fruit Chews",
+            "vendor": "Falero",
+            "image": "https://www.mapro.com/cdn/shop/products/frubafaleroslide1.jpg?v=1671605884",
+            "price": 240,
+            "rating": "4.8",
+            "variant": ["350gm", "500gm"]
+        },
+        {
+            "title": "J-POP",
+            "catagory": "Fruit Chews",
+            "vendor": "Falero",
+            "image": "https://www.mapro.com/cdn/shop/products/jpopfaleroslide1_720x.jpg?v=1670908612",
+            "price": 240,
+            "rating": "4.3",
+            "variant": ["350gm", "500gm"]
+        },
+        {
+            "title": "Qubes",
+            "catagory": "Fruit Chews",
+            "vendor": "Falero",
+            "image": "https://www.mapro.com/cdn/shop/products/1_5d5d64a2-f288-460a-bcd2-00f6cdc09338_720x.jpg?v=1667731498",
+            "price": 117,
+            "rating": "5",
+            "variant": ["350gm", "500gm"]
+        },
+        {
+            "title": "Falchoos",
+            "catagory": "Fruit Chews",
+            "vendor": "Falero",
+            "image": "https://www.mapro.com/cdn/shop/products/MaproFalchoos180gm_778c91f7-645b-4c1a-bc51-0951775325e5_720x.jpg?v=1665065929",
+            "price": 117,
+            "rating": "4.7",
+            "variant": ["350gm", "500gm"]
+        },
+        {
+            "title": "Jamun",
+            "catagory": "Fruit Chews",
+            "vendor": "Falero",
+            "image": "https://www.mapro.com/cdn/shop/products/1_a80ffe4d-d05e-4d1f-bb73-95b648722ea8_720x.jpg?v=1667732359",
+            "price": 117,
+            "rating": "5",
+            "variant": ["350gm", "500gm"]
+        },
+        {
+            "title": "Tamarind",
+            "catagory": "Fruit Chews",
+            "vendor": "Falero",
+            "image": "https://www.mapro.com/cdn/shop/products/1_6b327fdb-8b6d-4537-8113-61bf2dc49c3a_720x.jpg?v=1667734601",
+            "price": 117,
+            "rating": "5",
+            "variant": ["350gm", "500gm"]
+        },
+        {
+            "title": "Mango",
+            "catagory": "Fruit Chews",
+            "vendor": "Falero",
+            "image": "https://www.mapro.com/cdn/shop/products/1_bd3de70b-627e-40d9-9dc0-3caae2b9237b_720x.jpg?v=1667733115",
+            "price": 117,
+            "rating": "4.3",
+            "variant": ["350gm", "500gm"]
+        }
+        ];
+
+        const syrups = [{
+            "title": "Whole Strawberry Crush",
+            "catagory": "Fruit Chews",
+            "vendor": "Mapro",
+            "image": "https://www.mapro.com/cdn/shop/products/Whole_Strawberry_Crush_Front_Slide.jpg?v=1668696085",
+            "price": 360,
+            "rating": "5",
+            "variant": ["1000ml"]
+        },
+        {
+            "title": "Rose Sharbat",
+            "catagory": "Sharbat",
+            "vendor": "Mapro",
+            "image": "https://www.mapro.com/cdn/shop/products/1_3_1c762ddd-b528-4ea8-b805-c6dfe2e50ddc.jpg?v=1668595641",
+            "price": 252,
+            "rating": "4.5",
+            "variant": ["1000ml", "750ml"]
+        },
+        {
+            "title": "Strawberry Crush",
+            "catagory": "Crush",
+            "vendor": "Mapro",
+            "image": "https://www.mapro.com/cdn/shop/products/Strawberry_Crush__Front_Slide.jpg?v=1668692248",
+            "price": 252,
+            "rating": "4.8",
+            "variant": ["1000ml", "750ml"]
+        },
+        {
+            "title": "Kesar Sharbat",
+            "catagory": "Sharbat",
+            "vendor": "Mapro",
+            "image": "https://www.mapro.com/cdn/shop/products/front1.jpg?v=1667730493",
+            "price": 450,
+            "rating": "5",
+            "variant": ["1000ml", "750ml"]
+        },
+        {
+            "title": "Alphonso Mango Crush",
+            "catagory": "Crush",
+            "vendor": "Mapro",
+            "image": "https://www.mapro.com/cdn/shop/products/Alphonso_Mango_crush_1side.jpg?v=1668691791",
+            "price": 360,
+            "rating": "5",
+            "variant": ["1000ml", "750ml"]
+        },
+        {
+            "title": "Kokum Crush    ",
+            "catagory": "Crush",
+            "vendor": "Mapro",
+            "image": "https://www.mapro.com/cdn/shop/products/Kokum_Crush_Front_Slide.jpg?v=1668692088",
+            "price": 252,
+            "rating": "5",
+            "variant": ["1000ml", "750ml"]
+        }
+        ];
+
+        const jams = [{
+            "title": "Whole Strawberry Jam",
+            "catagory": "Jam",
+            "vendor": "Mapro",
+            "image": "https://www.mapro.com/cdn/shop/products/1_3_34c3885f-3df8-442b-bbd0-0be8bb866b1b.jpg?v=1668593878",
+            "price": 297,
+            "rating": "4.8",
+            "variant": ["1Kg", "350gm", "500gm"]
+        },
+        {
+            "title": "Mixed Fruit Jam",
+            "catagory": "Fruit Chews",
+            "vendor": "Mapro",
+            "image": "https://www.mapro.com/cdn/shop/products/1_4_041ed7a6-10e8-42c3-8ec2-3f711105d7f0.jpg?v=1668593306",
+            "price": 234,
+            "rating": "4.8",
+            "variant": ["1Kg", "350gm", "500gm"]
+        },
+        {
+            "title": "Chocolate Spread with Choco Chips",
+            "catagory": "Spread",
+            "vendor": "Mapro",
+            "image": "https://www.mapro.com/cdn/shop/products/choco-spread-with-choco-chips_front_shot.jpg?v=1668064721",
+            "price": 270,
+            "rating": "5",
+            "variant": ["1Kg", "350gm", "500gm"]
+        },
+        {
+            "title": "Pineapple Jam",
+            "catagory": "Jam",
+            "vendor": "Mapro",
+            "image": "https://www.mapro.com/cdn/shop/products/1_3_138d56ec-f672-40ad-b1fc-23d4e1595dc3.jpg?v=1668593611",
+            "price": 270,
+            "rating": "0",
+            "variant": ["1Kg", "350gm", "500gm"]
+        },
+        {
+            "title": "Orange Marmalade",
+            "catagory": "Jam",
+            "vendor": "Mapro",
+            "image": "https://www.mapro.com/cdn/shop/products/1_3_aa2a7c7e-00c0-4d44-af33-f1bc8c564345.jpg?v=1668593523",
+            "price": 270,
+            "rating": "0",
+            "variant": ["1Kg", "350gm", "500gm"]
+        },
+        {
+            "title": "Strawberry Preserve",
+            "catagory": "Jam",
+            "vendor": "Mapro",
+            "image": "https://www.mapro.com/cdn/shop/products/1_1_c3d0429f-1f71-46c2-aefa-1c4639ff7703.jpg?v=1667969895",
+            "price": 270,
+            "rating": "5",
+            "variant": ["1Kg", "350gm", "500gm"]
+        }
+        ];
+
+        const snaks = [{
+            "title": "WChoco Chip Cookie Coin",
+            "catagory": "Snaks",
+            "vendor": "Snackery",
+            "image": "https://www.mapro.com/cdn/shop/files/Chocolate-Chunk-CookieP1.png?v=1696080249",
+            "price": 297,
+            "rating": "4.3",
+            "variant": ["198mg"]
+        },
+        {
+            "title": "Butter Cashew Nut Cookies",
+            "catagory": "Snaks",
+            "vendor": "Snackery",
+            "image": "https://www.mapro.com/cdn/shop/files/Butter-Cashew-Cookie-P1.png?v=1696083544",
+            "price": 297,
+            "rating": "5",
+            "variant": ["198mg"]
+        }
+            ,
+        {
+            "title": "Oats Jaggery Cookie Coin",
+            "catagory": "Snaks",
+            "vendor": "Snackery",
+            "image": "https://www.mapro.com/cdn/shop/files/Oat-Jaggery-Cookie-P1.png?v=1696082244",
+            "price": 297,
+            "rating": "4.8",
+            "variant": ["198mg"]
+        }
+            ,
+        {
+            "title": "Classic Butter Cookie",
+            "catagory": "Snaks",
+            "vendor": "Snackery",
+            "image": "https://www.mapro.com/cdn/shop/files/Butter-Classic--Cookie-P1.png?v=1696083411",
+            "price": 297,
+            "rating": "5",
+            "variant": ["198mg"]
+        }
+            ,
+        {
+            "title": "Multi Grain Nachos( desi masala )",
+            "catagory": "Snaks",
+            "vendor": "Snackery",
+            "image": "https://www.mapro.com/cdn/shop/products/Desimasala_720x.jpg?v=1681214844",
+            "price": 198,
+            "rating": "5",
+            "variant": ["350g"]
+        }
+            ,
+        {
+            "title": "Multi Grain Nachos (sweet Chili )",
+            "catagory": "Snaks",
+            "vendor": "Snackery",
+            "image": "https://www.mapro.com/cdn/shop/products/Sweetchilli.jpg?v=1681214177",
+            "price": 198,
+            "rating": "5",
+            "variant": ["350g"]
+        }
+        ];
+
+        let products = ``;
+        const productArray = document.querySelector('.splide__list');
+
+        function handleRadioChange() {
+            let productsHTML = "";  // Use a different variable name
+            let arr = [];
+            const catagory = document.querySelector('input[name="catagory"]:checked').value;
+            console.log(catagory);
+            console.log(catagory);
+
+            if (catagory == 'syrups') {
+                arr = syrups;
+            }
+            else if (catagory == 'jams-spreads') {
+                arr = jams;
+            }
+            else if (catagory == 'snaks') {
+                arr = snaks;
+            }
+            else {
+                arr = fruits;
+            }
+
+            arr.forEach((product) => {
+                productsHTML += `<li class="splide__slide" onmouseover="showAddToCartBtn(this)"
+                        onmouseout="hideAddToCartBtn(this)">
+                        <img src="${product.image}" alt="" loading="lazy" />
+
+                        <div class="product_infobox">
+                            <div class="full_info">
+                                <div class="product_catagory">${product.vendor} · ${product.catagory}</div>
+                                <div class="product_price">
+                                    <span>₹${product.price}</span>
+                                </div>
+                            </div>
+                            <div class="product_title_box">
+                                <span class="title"> ${product.title} </span>
+                                <div class="product_rating_select">
+                                    <div class="product_rating_box">
+                                        <div class="Stars" style="--rating: ${product.rating}"
+                                            aria-label="Rating of this product is ${product.rating} out of 5."></div>
+                                        <span class="product_rating"> ${product.rating} </span>
+                                    </div>
+                                    <select name="quantity" id="">`;
+                product.variant.forEach((v) => {
+                    productsHTML += `<option value="${v}">${v}</option>`;
+                });
+                productsHTML += `</select>
+                                </div>
+                            </div>
+                            <div class="add_to_cart_btn">
+                                <span>Add To Cart</span>
+                            </div>
+                        </div>
+                    </li>`;
+            });
+
             var splide = new Splide(".splide", {
                 type: "slide",
                 perPage: 3,
-                start: 1,
+                start: 0,
                 perMove: 1,
                 gap: "2rem",
                 drag: "free",
@@ -250,10 +377,13 @@
                     },
                 },
             });
+
+            // Use innerHTML to append HTML content
+            productArray.innerHTML = productsHTML;
+
             splide.mount();
-        });
-    </script>
-    <script>
+        }
+
         function showAddToCartBtn(element) {
             var addToCartBtn = element.querySelector(".add_to_cart_btn");
             addToCartBtn.style.display = "block";
@@ -265,12 +395,6 @@
         }
     </script>
 
-    <script>
-        function handleRadioChange(radio) {
-            // Display an alert when a radio field is changed
-            // alert("Hello, World! You selected: " + radio.value);
-        }
-    </script>
 
 </body>
 

@@ -1,0 +1,59 @@
+[{
+    "title": "WChoco Chip Cookie Coin",
+    "catagory": "Snaks",
+    "vendor": "Snackery",
+    "image": "https://www.mapro.com/cdn/shop/files/Chocolate-Chunk-CookieP1.png?v=1696080249",
+    "price": 297,
+    "rating": "4.3",
+    "variant": ["198mg"]
+},
+{
+    "title": "Butter Cashew Nut Cookies",
+    "catagory": "Snaks",
+    "vendor": "Snackery",
+    "image": "https://www.mapro.com/cdn/shop/files/Butter-Cashew-Cookie-P1.png?v=1696083544",
+    "price": 297,
+    "rating": "5",
+    "variant": ["198mg"]
+}
+,
+{
+    "title": "Oats Jaggery Cookie Coin",
+    "catagory": "Snaks",
+    "vendor": "Snackery",
+    "image": "https://www.mapro.com/cdn/shop/files/Oat-Jaggery-Cookie-P1.png?v=1696082244",
+    "price": 297,
+    "rating": "4.8",
+    "variant": ["198mg"]
+}
+,
+{
+    "title": "Classic Butter Cookie",
+    "catagory": "Snaks",
+    "vendor": "Snackery",
+    "image": "https://www.mapro.com/cdn/shop/files/Butter-Classic--Cookie-P1.png?v=1696083411",
+    "price": 297,
+    "rating": "5",
+    "variant": ["198mg"]
+}
+,
+{
+    "title": "Multi Grain Nachos( desi masala )",
+    "catagory": "Snaks",
+    "vendor": "Snackery",
+    "image": "https://www.mapro.com/cdn/shop/products/Sweetchilli.jpg?v=1681214177",
+    "price": 198,
+    "rating": "5",
+    "variant": ["350g"]
+}
+,
+{
+    "title": "Multi Grain Nachos (sweet Chili )",
+    "catagory": "Snaks",
+    "vendor": "Snackery",
+    "image": "https://www.mapro.com/cdn/shop/products/Sweetchilli.jpg?v=1681214177",
+    "price": 198,
+    "rating": "5",
+    "variant": ["350g"]
+}
+]
